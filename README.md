@@ -3,17 +3,14 @@
   <img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" alt="GoBarber" width="180">
 <br>
 <br>
-GoBarber API
+Github Explorer
 </h1>
 
-<p align="center">An API for barber appointment and scheduling.</p>
-
+<p align="center">Simple application to search for repositories directly from the github api, returning information such as issues, forks, stars.</p>
 
 <hr />
 
 ## Features
-
-Simple application to search for repositories directly from the github api, returning information such as issues, forks, stars.
 
 - ☑️ **ReactJS**
 - ☑️ **Styled Components**
