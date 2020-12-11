@@ -25,6 +25,7 @@
         "prettier"
     ],
     "rules": {
+
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
@@ -46,7 +47,12 @@
         }
      ],
      "no-use-before-define": "off",
-     "prettier/prettier": "error"
+         "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }],
+     "react/jsx-one-expression-per-line": "off"
     },
     "settings": {
       "import/resolver": {
